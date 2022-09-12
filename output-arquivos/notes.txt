@@ -1,0 +1,50 @@
+'''# Número da Venda
+num_venda = pedidos_df['Número da venda']
+print(num_venda)
+
+for index in num_venda:
+    num_venda.to_excel('output1.xlsx', index=False)
+'''
+# Data/Hora de emissão
+
+#pedidos_df.set_index('Data/hora de emissão')
+#data = pedidos_df['Data/hora de emissão']
+#print(pedidos_df)
+#print(data)
+#
+#data.to_excel('output1.xlsx', index=False)
+'''#Cliente
+cliente = pedidos_df['Cliente']
+print(cliente)
+
+for index in cliente:
+    cliente.to_excel('output1.xlsx', index=False)
+
+#Bairro
+bairro = pedidos_df['Bairro']
+print(bairro)
+
+for index in bairro:
+    bairro.to_excel('output1.xlsx', index=False)
+
+#Produtos
+produtos = pedidos_df['Produtos']
+print(produtos)
+
+for index in produtos:
+    produtos.to_excel('output1.xlsx', index=False)
+
+#Quantidade
+quantidade = pedidos_df['Quantidade']
+print(quantidade)
+
+for index in quantidade:
+    quantidade.to_excel('output1.xlsx', index=False)
+
+#Valor un
+valor_un = pedidos_df['Valor un']
+print(valor_un)
+
+for index in valor_un:
+    valor_un.to_excel('output1.xlsx', index=False)
+'''
